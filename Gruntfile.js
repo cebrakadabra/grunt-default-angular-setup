@@ -27,7 +27,7 @@ grunt.initConfig({
       },
       target: {
         files: {
-          'dist/public/css/build.min.css': ['app/css/*.css']
+          'dist/css/build.min.css': ['app/css/*.css']
         }
       }
     },
