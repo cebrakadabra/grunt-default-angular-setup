@@ -64,6 +64,12 @@ grunt.initConfig({
         cwd: 'app/',
         src: ['fonts/*'],
         dest: 'dist/',
+      },
+      vendor: {
+        expand: true,
+        cwd: 'app/',
+        src: ['vendor/*'],
+        dest: 'dist/'
       }
     },
     jshint: {
