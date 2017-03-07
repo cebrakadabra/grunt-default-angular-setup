@@ -10,8 +10,7 @@
     "start": "node app"
   },
   "napa": {
-    "angular-cookies": "angular/bower-angular-cookies#v1.2.23",
-    "angular-route": "angular/bower-angular-route"
+    "angular-cookies": "angular/bower-angular-cookies#v1.2.23"
   },
   "browser": {
     "angular-cookies": "./node_modules/angular-cookies/angular-cookies.js"
